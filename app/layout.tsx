@@ -27,7 +27,10 @@ export default function RootLayout({
         className={`bg-slate-800 ${lexend.className} text-gray-200 antialiased`}
       >
         <Header/>
-        {children}
+        <main className="min-h-screen">
+          {children}
+        </main>
+        
         <Footer/>
       </body>
     </html>
