@@ -9,7 +9,7 @@ export default function Home() {
       <p className="text-lg md:mx-[14rem] mx-16">Good Morning</p>
       <div className="flex flex-col items-center justify-center">
         <Image className="justify-center rounded-xl shadow-md" src={"/images/patrick.png"} width={250} height={60} alt="Patrick" />
-        <p className="text-lg font-semibold">I'm Anwar Syadad</p>
+        <p className="text-lg font-semibold">I&apos;m Anwar Syadad</p>
         <p className="text-base">Still learning about  Next.JS Framework</p>
         <div className="flex gap-1.5">
           <FontAwesomeIcon icon={faGithub}  className="mt-0.5"/>
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </div>
       <div className="md:mx-[13rem] mx-16">
-        <h2 className="font-semibold">Here's some of my projects:</h2>
+        <h2 className="font-semibold">Here&apos;s some of my projects:</h2>
         <ul>
           <li className="border h-[4rem] p-3 rounded-lg">
             <a href="https://github.com/anwrsydd/jeketisr">
