@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,9 +9,9 @@ export default function Home() {
     <div className="m-10 md:mx-[14rem]">
       <p className="text-lg text-center mx-10">Good Morning</p>
       <div className="flex flex-col items-center justify-center">
-        <Image className="justify-center rounded-xl shadow-md" src={"/images/patrick.png"} width={250} height={60} alt="Patrick" />
         <p className="text-lg font-semibold">I&apos;m Anwar Syadad</p>
         <p className="text-base">Still learning about  Next.JS Framework</p>
+        <Image className="my-2 justify-center rounded-xl shadow-md" src={"/images/patrick.png"} width={250} height={60} alt="Patrick" />
         <div className="flex gap-1.5">
           <FontAwesomeIcon icon={faGithub}  className="mt-0.5"/>
           <Link href={"https://github.com/anwrsydd"}>Github</Link>
